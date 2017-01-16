@@ -1,6 +1,7 @@
 html,
 body {
     font-family: $sans-serif;
+    color: $grey--dark;
 }
 
 h1,
@@ -10,14 +11,189 @@ h4,
 h5,
 h6 {
     font-family: $serif;
+    color: $dark;
+}
+
+h2,
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 section {
-    margin: 80px 0;
-    @media (min-width: $medium) {
-        margin: 120px 0;
-    }
+    margin: 160px 0;
     @media (min-width: $medium) {
         margin: 160px 0;
+    }
+}
+
+.hero {
+    margin: 0;
+    padding: 80px 0 180px;
+    background-color: $dark;
+    background-image: url("../img/hero--background.jpg");
+    background-position: center center;
+    background-size: cover;
+    .hero__title {
+        font-size: 40px;
+        max-width: 280px;
+        margin-bottom: 40px;
+        color: $white;
+    }
+    .hero__details {
+        font-size: 11px;
+        font-style: italic;
+        color: $white;
+        span {
+            display: block;
+            &:last-child {
+                margin-top: 11px;
+            }
+        }
+    }
+    @media (min-width: $medium) {
+        padding: 120px 0 220px;
+        .hero__title {
+            font-size: 68px;
+            max-width: 540px;
+        }
+    }
+    @media (min-width: $large) {
+        padding: 160px 0 260px;
+        .hero__title {
+            margin-bottom: 0;
+        }
+        .hero__details {
+            text-align: right;
+        }
+    }
+}
+
+.how {
+    .card {
+        margin-top: -240px;
+        padding: 40px;
+        border-radius: 8px;
+        background-color: $white;
+        box-shadow: 0 31px 84px rgba($grey, .19), 0 13px 25px rgba($grey, .23);
+    }
+    .how__details {
+        margin: 0;
+        list-style: none;
+        li {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .emoji.small {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    @media (min-width: $large) {
+        .card {
+            margin-top: -300px;
+            padding: 60px;
+        }
+    }
+}
+
+.trust {
+    .tabs,
+    .tabs-content {
+        border: none;
+        background-color: transparent;
+    }
+    .tabs-content {
+        margin: 40px 0 0;
+        .tabs-panel {
+            max-width: 500px;
+            height: 220px;
+            padding: 0;
+        }
+        blockquote {
+            padding: 15px;
+            color: $dark;
+            border: none;
+            border-radius: 18px;
+            background-color: $grey--light;
+        }
+        cite {
+            padding-left: 15px;
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .tabs-title {
+        display: inline-block;
+        width: 25%;
+        @media (min-width: $medium) {
+            display: block;
+            width: 100%;
+        }
+    }
+    .tabs-title > a {
+        display: block;
+        max-width: 80px;
+        max-height: 80px;
+        margin: 5px;
+        padding: 15px;
+        border-radius: 25px;
+        &:focus {
+            outline: none;
+            background-color: transparent;
+        }
+        &[aria-selected="true"] {
+            background-color: $blue;
+        }
+    }
+}
+
+.attend {
+    .text,
+    .why {
+        margin-bottom: 60px;
+    }
+    @media (min-width: $large) {
+        .text {
+            margin-bottom: 0;
+        }
+    }
+    .phone-container {
+        position: relative;
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        @media (min-width: $large) {
+            margin-right: 0;
+        }
+    }
+    .typeform-widget {
+        position: absolute;
+        top: 95px;
+        left: 26px;
+        width: 309px;
+        height: 549px;
+    }
+}
+
+.footer {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    opacity: .6;
+    .social {
+        float: right;
+        margin: 0;
+        list-style: none;
+        .icon {
+            display: inline-block;
+        }
+        .fa {
+            margin: 0 5px;
+            cursor: not-allowed;
+        }
     }
 }
