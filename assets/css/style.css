@@ -2200,7 +2200,7 @@ section {
   padding: 80px 0 180px;
   background-color: #2A2A2A;
   background-image: url("../img/hero--background.jpg");
-  background-position: center center;
+  background-position: -50px center;
   background-size: cover; }
   .hero .hero__title {
     font-size: 40px;
@@ -2217,7 +2217,8 @@ section {
         margin-top: 11px; }
   @media (min-width: 40em) {
     .hero {
-      padding: 120px 0 220px; }
+      padding: 120px 0 220px;
+      background-position: center center; }
       .hero .hero__title {
         font-size: 68px;
         max-width: 540px; } }
