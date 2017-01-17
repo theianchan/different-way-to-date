@@ -2174,11 +2174,26 @@ h3 {
   font-size: 22px;
   margin-bottom: 10px; }
 
+a {
+  color: #00B0FF; }
+  a:hover, a:focus {
+    color: #00B0FF; }
+
 section {
   margin: 160px 0; }
   @media (min-width: 40em) {
     section {
       margin: 160px 0; } }
+
+.button {
+  display: inline-block;
+  margin: 10px 0 40px;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background-color: #00B0FF; }
+  .button:hover {
+    color: #FFFFFF; }
 
 .hero {
   margin: 0;

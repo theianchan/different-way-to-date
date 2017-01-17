@@ -20,12 +20,33 @@ h3 {
     margin-bottom: 10px;
 }
 
+a {
+    color: $blue;
+    &:hover,
+    &:focus {
+        color: $blue;
+    }
+}
+
 section {
     margin: 160px 0;
     @media (min-width: $medium) {
         margin: 160px 0;
     }
 }
+
+.button {
+    display: inline-block;
+    margin: 10px 0 40px;
+    padding: 10px 20px;
+    color: $white;
+    border-radius: 4px;
+    background-color: $blue;
+    &:hover {
+        color: $white;
+    }
+}
+
 
 .hero {
     margin: 0;
