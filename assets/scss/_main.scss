@@ -173,14 +173,9 @@ section {
 }
 
 .attend {
-    .text,
+    .cost,
     .why {
-        margin-bottom: 40px;
-    }
-    @media (min-width: $large) {
-        .text {
-            margin-bottom: 0;
-        }
+        margin-bottom: 60px;
     }
     .phone-container {
         position: relative;

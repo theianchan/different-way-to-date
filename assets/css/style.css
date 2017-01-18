@@ -2291,12 +2291,9 @@ section {
   .trust .tabs-title > a[aria-selected="true"] {
     background-color: #00B0FF; }
 
-.attend .text,
+.attend .cost,
 .attend .why {
-  margin-bottom: 40px; }
-@media (min-width: 64em) {
-  .attend .text {
-    margin-bottom: 0; } }
+  margin-bottom: 60px; }
 .attend .phone-container {
   position: relative;
   display: block;
