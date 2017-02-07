@@ -5,56 +5,61 @@ body {
 .cities-columns {
 	text-align: center;
 }
-.column1 {
-	float: left;
-	width: 50%;
-	height: 700px;
-	background-color: #2A2A2A;
-}
-
 .column-content {
 	margin-top: 10%;
 }
-
-.column1 h3 {
-	color: #FFFFFF;
-	margin: 0;
-}
-.column1 h1 {
-	color: #FFFFFF;
-	margin: 0;
-}
-
-.column2 {
-	float: right;
-	width: 50%;
-	height: 700px;
-	background-color: #FFFFFF;
-}
-.column2 h1 {
-	margin: 0;
-}
-.column2 h3 {
-	margin: 0;
-}
-
-.emoji-flags {
+.emoji-flag {
 	font-size: 50px;
 }
 
 .upcoming-event {
 	margin-top: 20px;
 }
-
 .upcoming-event p {
 	line-height: 95%;
 	margin-bottom: 10px;
-	color: white;
 }
 
 p.event-date {
-	font-size: 24px;
+	font-size: 20px;
 }
+
+/* Kuala Lumpar Section */
+
+.kl-column {
+	float: left;
+	width: 50%;
+	height: 80em;
+	background-color: #2A2A2A;
+	margin: 0;
+}
+
+.kl-column h1 {
+	color: #FFFFFF;
+}
+
+.kl-column h3 {
+	color: #FFFFFF;
+}
+
+.kl-column p {
+	color: #FFFFFF;
+}
+
+/* San Francisco Section */
+.sf-column {
+	float: right;
+	width: 50%;
+	height: 700px;
+	background-color: #FFFFFF;
+}
+.sf-column h1 {
+	margin: 0;
+}
+.sf-column h3 {
+	margin: 0;
+}
+
 
 @media screen and (max-width: 480px) {
     .column1 {
