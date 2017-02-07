@@ -38,6 +38,24 @@ body {
 	margin: 0;
 }
 
+.emoji-flags {
+	font-size: 50px;
+}
+
+.upcoming-event {
+	margin-top: 20px;
+}
+
+.upcoming-event p {
+	line-height: 95%;
+	margin-bottom: 10px;
+	color: white;
+}
+
+p.event-date {
+	font-size: 24px;
+}
+
 @media screen and (max-width: 480px) {
     .column1 {
         width: 100%;
