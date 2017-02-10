@@ -1,0 +1,72 @@
+.emoji-flag {
+    width: 60px;
+    height: 79px;
+}
+
+.upcoming-event {
+    margin-top: 20px;
+}
+.upcoming-event p {
+    line-height: 95%;
+    margin-bottom: 10px;
+}
+
+p.event-date {
+    font-size: 20px;
+}
+
+.emoji-small {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.home {
+    white-space: nowrap;
+}
+
+.city {
+    text-align: center;
+    height: 50vh;
+    min-height: 480px;
+    position: relative;
+
+    &.kl {
+        background-color: $dark;
+        color: $white;
+        h1, h2, h3, p {
+            color: $white;
+        }
+    }
+    .city-content {
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+        &.description {
+            top: 35px;
+        }
+        &.countdown {
+            bottom: 35px;
+        }
+    }
+
+    @media screen and (min-width: $large) {
+        height: 100vh;
+        width: 50%;
+        display: inline-block;
+        .city-content {
+            &.description {
+                top: 150px;
+            }
+            &.countdown {
+                bottom: 150px;
+            }
+        }
+    }
+}
+
+
+
+
+

@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A Different Way to Date</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-90469644-1', 'auto');
-      ga('send', 'pageview');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-90469644-1', 'auto');
+    ga('send', 'pageview');
     </script>
 </head>
+
 <body>
-    <section class="row">
-        <div class="column small-12">
-            <h1>There's Nothing Here!!</h1>
-            <p>But look at you being all sneaky and knowing how URL structures work.</p>
-            <p>You're probably looking for our <a href="/february">February event</a>.</p>
+    <div class="home">
+        <div class="city kl">
+            <div class="city-content description">
+                <img class="emoji-flag" src="assets/img/emoji-malaysiaflag.png">
+                <h3>A Different Way To Date in</h3>
+                <h1>Kuala Lumpur</h1>
+                <div class="upcoming-event">
+                    <p>Next Event:</p>
+                    <p class="event-date">Saturday, February 4th, 2017</p>
+                </div>
+                <img class="emoji-small" src="assets/img/emoji-femalejudge.png">
+                <img class="emoji-small" src="assets/img/emoji-maleteacher.png">
+                <div class="row align-center">
+                    <div class="column">
+                        <a href="/kl" class="button">Join us in KL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="city-content countdown">
+                Here is the time!
+            </div>
         </div>
-    </section>
+        <div class="city sf">
+            <div class="city-content description">
+                <img class="emoji-flag" src="assets/img/emoji-usflag.png">
+                <h3>A Different Way To Date in</h3>
+                <h1>San Francisco</h1>
+                <div class="upcoming-event">
+                    <p>Next Event:</p>
+                    <p class="event-date">Saturday, February 24th, 2017</p>
+                </div>
+                <img class="emoji-small" src="assets/img/emoji-maleoffice.png">
+                <img class="emoji-small" src="assets/img/emoji-femaledr.png">
+                <div class="row align-center">
+                    <div class="column">
+                        <a href="/sf" class="button">Join us in SF</a>
+                    </div>
+                </div>
+            </div>
+            <div class="city-content countdown">
+                Here is the time!
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

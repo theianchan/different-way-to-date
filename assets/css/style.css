@@ -2160,6 +2160,14 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #4A4A4A; }
 
+html {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  height: 100%;
+  overflow: auto; }
+
 h1,
 h2,
 h3,
@@ -2383,5 +2391,65 @@ section {
     transform: rotate(360deg); }
   to {
     transform: rotate(0deg); } }
+.emoji-flag {
+  width: 60px;
+  height: 79px; }
+
+.upcoming-event {
+  margin-top: 20px; }
+
+.upcoming-event p {
+  line-height: 95%;
+  margin-bottom: 10px; }
+
+p.event-date {
+  font-size: 20px; }
+
+.emoji-small {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px; }
+
+.home {
+  white-space: nowrap; }
+
+.city {
+  text-align: center;
+  height: 50vh;
+  min-height: 480px;
+  position: relative; }
+  .city.kl {
+    background-color: #2A2A2A;
+    color: #FFFFFF; }
+    .city.kl h1, .city.kl h2, .city.kl h3, .city.kl p {
+      color: #FFFFFF; }
+  .city .city-content {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center; }
+    .city .city-content.description {
+      top: 35px; }
+    .city .city-content.countdown {
+      bottom: 35px; }
+  @media screen and (min-width: 64em) {
+    .city {
+      height: 100vh;
+      width: 50%;
+      display: inline-block; }
+      .city .city-content.description {
+        top: 150px; }
+      .city .city-content.countdown {
+        bottom: 150px; } }
+
+.button {
+  font-size: 13px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 11px 44px;
+  color: #FFFFFF;
+  border-radius: 0;
+  background-color: #EE0979;
+  background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+.button {
+    font-size: 13px;
+    font-weight: $fw--ss--bold;
+    display: inline-block;
+    padding: 11px 44px;
+    color: $white;
+    border-radius: 0;
+    background-color: $pink;
+    background-image: $gradient--primary;
+}

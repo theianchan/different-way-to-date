@@ -1,4 +1,7 @@
-@import 'foundation.scss';
-@import 'config.scss';
-@import 'main.scss';
-@import 'team.scss';
+@import 'base/foundation.scss';
+@import 'utilities/config.scss';
+@import 'base/main.scss';
+
+@import 'layout/team.scss';
+@import 'layout/landing.scss';
+@import 'modules/buttons.scss';
