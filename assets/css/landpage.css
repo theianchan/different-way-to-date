@@ -2,14 +2,12 @@ body {
 	margin: 0;
 }
 
-.cities-columns {
-	text-align: center;
-}
 .column-content {
 	margin-top: 10%;
 }
 .emoji-flag {
-	font-size: 50px;
+	width: 60px;
+	height: 79px;
 }
 
 .upcoming-event {
@@ -24,14 +22,22 @@ p.event-date {
 	font-size: 20px;
 }
 
+.emoji-small {
+	margin-top: 20px;
+	width: 50px;
+  	height: 50px;
+}
+
 /* Kuala Lumpar Section */
 
 .kl-column {
-	float: left;
 	width: 50%;
-	height: 80em;
+	position: absolute;
+	height: 100%;
 	background-color: #2A2A2A;
 	margin: 0;
+	left: 0px;
+	text-align: center;
 }
 
 .kl-column h1 {
@@ -48,10 +54,12 @@ p.event-date {
 
 /* San Francisco Section */
 .sf-column {
-	float: right;
 	width: 50%;
-	height: 700px;
+	height: 100%;
+	position: absolute;
 	background-color: #FFFFFF;
+	right: 0px;
+	text-align: center;
 }
 .sf-column h1 {
 	margin: 0;
