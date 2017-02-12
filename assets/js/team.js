@@ -28,7 +28,7 @@ function main() {
         + startingDistance  + "px)'><div class=localized style='transform: rotate(-"
         + startingPosition + "deg)'><div class=counterorbit><img class='wow bounceIn' data-wow-delay=\""
         + (Math.floor(Math.random() * 5) + 1) + "00ms\" src=assets/img/team/"
-        + name + ".jpg><span>"
+        + name.toLowerCase() + ".jpg><span>"
         + name + "</span></div></div></li>";
 
         return c;
@@ -41,7 +41,7 @@ function main() {
         resetOrbit(team);
         var newOrbit = "<ul class='orbit " + team + "\'>";
         for (var i = 0; i < numMembers; i ++) {
-            newOrbit += newCore(team, members[i].toLowerCase(), i, numMembers);
+            newOrbit += newCore(team, members[i], i, numMembers);
         }
         newOrbit += "</ul>";
         $(".space").append(newOrbit);
