@@ -2333,6 +2333,17 @@ section {
       margin: 0 5px;
       cursor: not-allowed; }
 
+.team {
+  margin: 45px 0; }
+  .team .button {
+    color: #EE0979;
+    background-color: transparent;
+    background-image: none; }
+  .team .button.active {
+    color: #FFFFFF;
+    background-color: #EE0979;
+    background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
+
 .space {
   position: relative;
   height: 760px; }
@@ -2342,9 +2353,7 @@ section {
     left: 50%;
     width: 40px;
     height: 40px;
-    margin: -20px 0 0 -20px;
-    border: 1px solid #2A2A2A;
-    border-radius: 50%; }
+    margin: -20px 0 0 -20px; }
   .space .orbit {
     position: absolute;
     top: 50%;
@@ -2352,11 +2361,11 @@ section {
     display: block;
     padding: 0;
     list-style: none;
-    animation: rotate 45s linear 0s infinite normal none;
-    border: 1px solid #2A2A2A;
+    animation: rotate 120s linear 0s infinite normal none;
+    border: 1px solid #E3E2DF;
     border-radius: 50%; }
   .space .counterorbit {
-    animation: counter 45s linear 0s infinite normal none; }
+    animation: counter 120s linear 0s infinite normal none; }
   .space .core {
     width: 300px;
     height: 300px;
@@ -2376,10 +2385,14 @@ section {
       display: block;
       width: 80px;
       height: 80px;
-      border-radius: 50%; }
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      box-shadow: 0 3px 8px rgba(133, 147, 157, 0.25); }
     .space .satellite span {
       display: block;
-      text-align: center; }
+      text-align: center;
+      font-size: 11px;
+      margin-top: 5px; }
 
 @keyframes rotate {
   from {

@@ -1,5 +1,5 @@
 function main() {
-    var team = {
+    var ALL_TEAM = {
         january: {
             core: ["Alex", "Becca", "Ian", "Mark"],
             extended: ["Charissa", "Iylia", "Talisa"]
@@ -9,19 +9,13 @@ function main() {
             extended: ["David", "Erik", "Talisa"]
         }
     };
-    // function showCore() {
 
-    // }
-    // function showExtended() {
-
-    // }
-
-    function clearCore() {
-        $(".orbit.core").empty();
+    function resetOrbit(team) {
+        $(".orbit." + team).remove();
     }
 
-    function addCore(name, position, numCores) {
-        var diameter = 300,
+    function newCore(team, name, position, numCores) {
+        var diameter = (team == "core" ? 300 : 600),
             rotation = 360,
             top = 225;
 
@@ -32,30 +26,45 @@ function main() {
         var c = "<li class=satellite style='transform: rotate("
         + startingPosition +"deg) translateX("
         + startingDistance  + "px)'><div class=localized style='transform: rotate(-"
-        + startingPosition + "deg)'><div class=counterorbit><img src=assets/img/team/"
+        + startingPosition + "deg)'><div class=counterorbit><img class='wow bounceIn' data-wow-delay=\""
+        + (Math.floor(Math.random() * 5) + 1) + "00ms\" src=assets/img/team/"
         + name + ".jpg><span>"
         + name + "</span></div></div></li>";
-        $(".orbit.core").append(c);
+
+        return c;
+    }
+
+    function showTeam(month, team) {
+        var members = ALL_TEAM[month][team],
+            numMembers = members.length;
+
+        resetOrbit(team);
+        var newOrbit = "<ul class='orbit " + team + "\'>";
+        for (var i = 0; i < numMembers; i ++) {
+            newOrbit += newCore(team, members[i], i, numMembers);
+        }
+        newOrbit += "</ul>";
+        $(".space").append(newOrbit);
     }
 
     $( "[data-month]" ).on("click", function() {
+        $(".button").removeClass("active");
+        $(this).addClass("active");
+
         var month = $(this).attr("id");
-        var core = team[month].core,
-            numCore = core.length,
-            exts = team[month].extended,
-            numExts = exts.length;
 
-        clearCore();
-        for (var i = 0; i < numCore; i ++) {
-            addCore(core[i], i, numCore);
-        }
-        $(".orbit.core").css("animation", "rotate 45s linear 0s infinite normal none")
-
+        showTeam(month, "core");
+        showTeam(month, "extended");
     });
 
+    showTeam("january", "core");
+    showTeam("january", "extended");
 
+    new WOW().init();
 }
 
 $(document).ready(
+
     main()
+
 );
