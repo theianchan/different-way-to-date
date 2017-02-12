@@ -41,7 +41,7 @@ function main() {
         resetOrbit(team);
         var newOrbit = "<ul class='orbit " + team + "\'>";
         for (var i = 0; i < numMembers; i ++) {
-            newOrbit += newCore(team, members[i], i, numMembers);
+            newOrbit += newCore(team, members[i].toLowerCase(), i, numMembers);
         }
         newOrbit += "</ul>";
         $(".space").append(newOrbit);
