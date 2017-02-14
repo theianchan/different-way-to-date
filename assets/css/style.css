@@ -2467,8 +2467,12 @@ p.event-date {
 
 .banner {
   background: url(../img/twinpeaks.jpg) no-repeat;
-  background-size: 100% 50%; }
-  .banner h1, .banner h4 {
+  background-size: 100% auto;
+  margin: 0;
+  max-width: none; }
+  .banner h1 {
+    color: #FFFFFF; }
+  .banner h1 {
     color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

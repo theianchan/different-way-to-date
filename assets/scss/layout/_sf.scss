@@ -1,7 +1,16 @@
 .banner {
 	background: url(../img/twinpeaks.jpg) no-repeat;
-	background-size: 100% 50%;
-	& h1, h4 {
+	background-size: 100% auto;
+	margin: 0;
+	max-width: none;
+	& h1 {
 		color: $white;
 	}
+	& h1 {
+		color: $white;
+	}
+
+	@media screen and (min-width: $large) {
+		
+    }
 }
