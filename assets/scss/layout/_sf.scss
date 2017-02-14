@@ -1,0 +1,7 @@
+.banner {
+	background: url(../img/twinpeaks.jpg) no-repeat;
+	background-size: 100% 50%;
+	& h1, h4 {
+		color: $white;
+	}
+}
