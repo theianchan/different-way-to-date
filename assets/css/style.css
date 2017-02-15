@@ -2465,20 +2465,26 @@ p.event-date {
   background-color: #EE0979;
   background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
 
+.headline {
+  padding-top: 10vh;
+  margin: 0; }
+
 .banner {
   background-color: #4A4A4A;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
   width: 100%;
   height: 800px;
-  margin: 0; }
+  margin: 0;
+  text-align: left; }
 
 .banner-content {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 250px;
   width: 1122px;
   color: #FFFFFF; }
   .banner-content .headline {
-    font-size: 35px;
+    font-size: 2em;
     letter-spacing: -1px;
     font-weight: 700;
     font-style: normal;
