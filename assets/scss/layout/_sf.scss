@@ -29,9 +29,14 @@
 		margin-bottom: 15px;
 		font-weight: $fw--ss--bold;
 		}
-		& p {
+		& p, li {
 			margin-left: 60px;
 			margin-bottom: 0px;
 		}
+	}
+	& .emoji.small {
+		height: 16px;
+		width: 16px;
+		margin-right: 5px;
 	}
 }

@@ -2490,8 +2490,12 @@ p.event-date {
     font-size: 40px;
     margin-bottom: 15px;
     font-weight: 700; }
-  .information .row p {
+  .information .row p, .information .row li {
     margin-left: 60px;
     margin-bottom: 0px; }
+.information .emoji.small {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
