@@ -2469,7 +2469,10 @@ p.event-date {
   padding-top: 25vh;
   padding-bottom: 36vh;
   background-color: #4A4A4A;
-  margin: 0; }
+  margin: 0;
+  background-image: url(../img/san-francisco-1.jpg);
+  background-position: center center;
+  background-size: cover; }
   .headline .row {
     margin-left: 5%; }
     .headline .row h1 {
