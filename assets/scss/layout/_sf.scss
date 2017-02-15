@@ -24,17 +24,18 @@
 }
 
 .information {
+	margin-top: 5em;
 	& .row {
 		margin-left: 5%;
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 		& .question {
 		font-size: 40px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 		font-weight: $fw--ss--bold;
 		}
 		& p, li {
 			margin-left: 60px;
-			margin-bottom: 0px;
+			margin-bottom: 10px;
 		}
 	}
 	& .emoji.small {

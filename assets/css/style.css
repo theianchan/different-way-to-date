@@ -2486,19 +2486,21 @@ p.event-date {
       color: #FFFFFF;
       padding-bottom: 26px; }
 
-.information .row {
-  margin-left: 5%;
-  margin-bottom: 5em; }
-  .information .row .question {
-    font-size: 40px;
-    margin-bottom: 15px;
-    font-weight: 700; }
-  .information .row p, .information .row li {
-    margin-left: 60px;
-    margin-bottom: 0px; }
-.information .emoji.small {
-  height: 16px;
-  width: 16px;
-  margin-right: 5px; }
+.information {
+  margin-top: 5em; }
+  .information .row {
+    margin-left: 5%;
+    margin-bottom: 2em; }
+    .information .row .question {
+      font-size: 40px;
+      margin-bottom: 10px;
+      font-weight: 700; }
+    .information .row p, .information .row li {
+      margin-left: 60px;
+      margin-bottom: 10px; }
+  .information .emoji.small {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
