@@ -2471,24 +2471,29 @@ p.event-date {
   .sf-page-ver4 h1, .sf-page-ver4 h2, .sf-page-ver4 h6, .sf-page-ver4 p {
     color: #FFFFFF; }
   .sf-page-ver4 h1 {
-    font-size: 2.6em; }
+    font-size: 3.3em;
+    padding-bottom: 10px; }
   .sf-page-ver4 h2 {
-    padding-top: 10px;
-    font-size: 1.4em; }
+    font-size: 1.8em; }
   .sf-page-ver4 .row {
-    margin-left: 5%; }
+    margin-left: 13%; }
     .sf-page-ver4 .row.headline {
+      margin-left: 5%;
       padding-top: 25vh;
       padding-bottom: 20vh; }
       .sf-page-ver4 .row.headline .button {
         margin-top: 39px; }
-    .sf-page-ver4 .row .information h1 {
-      margin-bottom: 60px; }
-    .sf-page-ver4 .row .information p, .sf-page-ver4 .row .information li, .sf-page-ver4 .row .information h2 {
-      margin-bottom: 10px; }
-    .sf-page-ver4 .row .information .emoji.small {
-      size: 16px;
-      width: 16px;
-      margin-right: 5px; }
+  .sf-page-ver4 .information {
+    margin-bottom: 50px; }
+  .sf-page-ver4 .question h1 {
+    padding-bottom: 60px; }
+  .sf-page-ver4 .emoji {
+    height: 1em;
+    width: 1em;
+    margin-right: 10px; }
+  .sf-page-ver4 img.testimony {
+    margin: 15%;
+    width: 60%;
+    height: auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,34 +5,38 @@
 		color: $white;
 	}
 	& h1 {
-		font-size: 2.6em;
+		font-size: 3.3em;
+		padding-bottom: 10px;
 	}
 	& h2 {
-		padding-top: 10px;
-		font-size: 1.4em;
+		font-size: 1.8em;
 	}
 	& .row {
-		margin-left: 5%;
+		margin-left: 13%;
 		&.headline {
+			margin-left: 5%;
 			padding-top: 25vh;
 			padding-bottom: 20vh;
 			& .button {
 				margin-top: 39px;
 			}
 		}
-		& .information {
-			& h1 {
-				margin-bottom: 60px;
-			}
-			& p, li, h2 {
-				margin-bottom: 10px;
-			}
-			& .emoji.small {
-				size: 16px;
-				width: 16px;
-				margin-right: 5px;
-			}
-		}
+	}
+	.information{
+		margin-bottom: 50px;
+	}
+	.question h1 {
+		padding-bottom: 60px;
+	}
+	.emoji {
+		height: 1em;
+		width: 1em;
+		margin-right: 10px;
+	}
+	img.testimony {
+		margin: 15%;
+		width: 60%;
+		height: auto;
 	}
 }
 
