@@ -1,7 +1,7 @@
 .sf-page-ver4 {
 	background-color: #27282c;
 	color: $white;
-	& h1, h2, h6, p {
+	& h1, h2, h6, p, h3 {
 		color: $white;
 	}
 	& h1 {
@@ -37,6 +37,31 @@
 		margin: 15%;
 		width: 60%;
 		height: auto;
+	}
+	.testimony-box {
+		padding-right: 35px;
+		width: 325px;
+		height: 360px;
+		background-color: #191919;
+		display: block;
+		float: left;
+		& h3 {
+			margin-top: 50px;
+			margin-left: 20px;
+			font-family: $sans-serif;
+			font-weight: bold;
+			letter-spacing: -0.5px;
+		}
+		& p {
+			margin-left: 20px;
+		}
+		& i {
+			font-size: 13px;
+			color: #9b9b9b;
+		}
+	}
+	.testimony-box-2 {
+		background-color: #FFFFFF;
 	}
 }
 
