@@ -1,49 +1,41 @@
 .sf-page-ver4 {
 	background-color: #27282c;
 	color: $white;
-	& h1, h6 {
+	& h1, h2, h6, p {
 		color: $white;
 	}
-}
-
-.headline {
-	padding-top: 25vh;
-	padding-bottom: 20vh;
-	margin: 0;
-	background-image: url(../img/san-francisco-1.jpg);
-	background-position: center center;
-	background-size: cover;
+	& h1 {
+		font-size: 2.6em;
+	}
+	& h2 {
+		padding-top: 10px;
+		font-size: 1.4em;
+	}
 	& .row {
 		margin-left: 5%;
-		& h1 {
-			font-size: 2.5em;
-			font-weight: $fw--ss--bold;
-			padding-bottom: 5px;
+		&.headline {
+			padding-top: 25vh;
+			padding-bottom: 20vh;
+			& .button {
+				margin-top: 39px;
+			}
 		}
-		& h6 {
-			font-size: 1.3em;
-			padding-bottom: 36px;
+		& .information {
+			& h1 {
+				margin-bottom: 60px;
+			}
+			& p, li, h2 {
+				margin-bottom: 10px;
+			}
+			& .emoji.small {
+				size: 16px;
+				width: 16px;
+				margin-right: 5px;
+			}
 		}
 	}
 }
 
-.information {
-	margin-top: 5em;
-	& .row {
-		margin-bottom: 2em;
-		& .question {
-		font-size: 2em;
-		margin-bottom: 10px;
-		font-weight: $fw--ss--bold;
-		}
-		& h1, p, li {
-			margin-left: 40px;
-			margin-bottom: 10px;
-		}
-	}
-	& .emoji.small {
-		height: 16px;
-		width: 16px;
-		margin-right: 5px;
-	}
-}
+		// background-image: url(../img/san-francisco-1.jpg);
+		// background-position: center center;
+		// background-size: cover;

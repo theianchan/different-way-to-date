@@ -2468,40 +2468,27 @@ p.event-date {
 .sf-page-ver4 {
   background-color: #27282c;
   color: #FFFFFF; }
-  .sf-page-ver4 h1, .sf-page-ver4 h6 {
+  .sf-page-ver4 h1, .sf-page-ver4 h2, .sf-page-ver4 h6, .sf-page-ver4 p {
     color: #FFFFFF; }
-
-.headline {
-  padding-top: 25vh;
-  padding-bottom: 20vh;
-  margin: 0;
-  background-image: url(../img/san-francisco-1.jpg);
-  background-position: center center;
-  background-size: cover; }
-  .headline .row {
+  .sf-page-ver4 h1 {
+    font-size: 2.6em; }
+  .sf-page-ver4 h2 {
+    padding-top: 10px;
+    font-size: 1.4em; }
+  .sf-page-ver4 .row {
     margin-left: 5%; }
-    .headline .row h1 {
-      font-size: 2.5em;
-      font-weight: 700;
-      padding-bottom: 5px; }
-    .headline .row h6 {
-      font-size: 1.3em;
-      padding-bottom: 36px; }
-
-.information {
-  margin-top: 5em; }
-  .information .row {
-    margin-bottom: 2em; }
-    .information .row .question {
-      font-size: 2em;
-      margin-bottom: 10px;
-      font-weight: 700; }
-    .information .row h1, .information .row p, .information .row li {
-      margin-left: 40px;
+    .sf-page-ver4 .row.headline {
+      padding-top: 25vh;
+      padding-bottom: 20vh; }
+      .sf-page-ver4 .row.headline .button {
+        margin-top: 39px; }
+    .sf-page-ver4 .row .information h1 {
+      margin-bottom: 60px; }
+    .sf-page-ver4 .row .information p, .sf-page-ver4 .row .information li, .sf-page-ver4 .row .information h2 {
       margin-bottom: 10px; }
-  .information .emoji.small {
-    height: 16px;
-    width: 16px;
-    margin-right: 5px; }
+    .sf-page-ver4 .row .information .emoji.small {
+      size: 16px;
+      width: 16px;
+      margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
