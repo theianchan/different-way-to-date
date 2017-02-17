@@ -2465,10 +2465,15 @@ p.event-date {
   background-color: #EE0979;
   background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
 
+.sf-page-ver4 {
+  background-color: #27282c;
+  color: #FFFFFF; }
+  .sf-page-ver4 h1, .sf-page-ver4 h6 {
+    color: #FFFFFF; }
+
 .headline {
   padding-top: 25vh;
-  padding-bottom: 36vh;
-  background-color: #4A4A4A;
+  padding-bottom: 20vh;
   margin: 0;
   background-image: url(../img/san-francisco-1.jpg);
   background-position: center center;
@@ -2476,27 +2481,23 @@ p.event-date {
   .headline .row {
     margin-left: 5%; }
     .headline .row h1 {
-      color: #FFFFFF;
-      font-size: 2.3em;
-      font-family: "Open Sans", sans-serif;
-      letter-spacing: -1px;
+      font-size: 2.5em;
       font-weight: 700;
       padding-bottom: 5px; }
     .headline .row h6 {
-      color: #FFFFFF;
-      padding-bottom: 26px; }
+      font-size: 1.3em;
+      padding-bottom: 36px; }
 
 .information {
   margin-top: 5em; }
   .information .row {
-    margin-left: 5%;
     margin-bottom: 2em; }
     .information .row .question {
-      font-size: 40px;
+      font-size: 2em;
       margin-bottom: 10px;
       font-weight: 700; }
-    .information .row p, .information .row li {
-      margin-left: 60px;
+    .information .row h1, .information .row p, .information .row li {
+      margin-left: 40px;
       margin-bottom: 10px; }
   .information .emoji.small {
     height: 16px;
