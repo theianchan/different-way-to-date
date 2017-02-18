@@ -2514,6 +2514,8 @@ p.event-date {
       font-size: 13px;
       color: #9b9b9b; }
   .sf-page-ver4 .testimony-box-2 {
-    background-color: #FFFFFF; }
+    background-image: url(../img/bwshot1.png);
+    background-position: center center;
+    background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
