@@ -2495,10 +2495,10 @@ p.event-date {
     margin: 15%;
     width: 60%;
     height: auto; }
+  .sf-page-ver4 .testimony-content {
+    width: 360px;
+    height: 360px; }
   .sf-page-ver4 .testimony-box {
-    padding-right: 35px;
-    width: 325px;
-    height: 360px;
     background-color: #191919;
     display: block;
     float: left; }
@@ -2517,5 +2517,24 @@ p.event-date {
     background-image: url(../img/bwshot1.png);
     background-position: center center;
     background-size: cover; }
+  .sf-page-ver4 .testimony-box-3 {
+    background-image: url(../img/bwshot2.png);
+    background-position: center center;
+    background-size: cover; }
+  .sf-page-ver4 .testimony-box-4 {
+    background-color: #191919;
+    display: block;
+    float: left; }
+    .sf-page-ver4 .testimony-box-4 h3 {
+      margin-left: 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      letter-spacing: -0.5px; }
+    .sf-page-ver4 .testimony-box-4 p {
+      margin-top: 50px;
+      margin-left: 20px; }
+    .sf-page-ver4 .testimony-box-4 i {
+      font-size: 13px;
+      color: #9b9b9b; }
 
 /*# sourceMappingURL=style.css.map */
