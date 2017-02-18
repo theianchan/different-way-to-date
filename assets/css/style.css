@@ -2475,13 +2475,13 @@ p.event-date {
     padding-bottom: 10px; }
   .sf-page-ver4 h2 {
     font-size: 1.8em; }
-  .sf-page-ver4 .row {
+  .sf-page-ver4 .row, .sf-page-ver4 footer {
     margin-left: 13%; }
-    .sf-page-ver4 .row.headline {
+    .sf-page-ver4 .row.headline, .sf-page-ver4 footer.headline {
       margin-left: 5%;
       padding-top: 25vh;
       padding-bottom: 20vh; }
-      .sf-page-ver4 .row.headline .button {
+      .sf-page-ver4 .row.headline .button, .sf-page-ver4 footer.headline .button {
         margin-top: 39px; }
   .sf-page-ver4 .information {
     margin-bottom: 50px; }
@@ -2536,5 +2536,13 @@ p.event-date {
     .sf-page-ver4 .testimony-box-4 i {
       font-size: 13px;
       color: #9b9b9b; }
+  .sf-page-ver4 .final-sales {
+    width: 1380px;
+    height: 651px;
+    background-color: #191919;
+    margin-left: 7%;
+    padding-top: 60px; }
+  .sf-page-ver4 .grey {
+    color: #9b9b9b; }
 
 /*# sourceMappingURL=style.css.map */

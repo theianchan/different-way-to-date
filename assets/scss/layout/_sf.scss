@@ -11,7 +11,7 @@
 	& h2 {
 		font-size: 1.8em;
 	}
-	& .row {
+	& .row, footer {
 		margin-left: 13%;
 		&.headline {
 			margin-left: 5%;
@@ -95,6 +95,16 @@
 			font-size: 13px;
 			color: #9b9b9b;
 		}
+	}
+	.final-sales{
+		width: 1380px;
+  		height: 651px;
+  		background-color: #191919;
+  		margin-left: 7%;
+  		padding-top: 60px;
+	}
+	.grey {
+		color: #9b9b9b;
 	}
 }
 
