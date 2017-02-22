@@ -2465,91 +2465,138 @@ p.event-date {
   background-color: #EE0979;
   background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
 
-.sf-page-ver4 {
-  color: #FFFFFF;
-  background-color: #27282C; }
-  .sf-page-ver4 h1,
-  .sf-page-ver4 h2,
-  .sf-page-ver4 h6,
-  .sf-page-ver4 p,
-  .sf-page-ver4 h3 {
+.sf-ver5 {
+  background-color: #27282c;
+  color: #FFFFFF; }
+  .sf-ver5 h1, .sf-ver5 h2, .sf-ver5 h6, .sf-ver5 p, .sf-ver5 h3 {
     color: #FFFFFF; }
-  .sf-page-ver4 h1 {
-    font-size: 3.3em;
-    padding-bottom: 10px; }
-  .sf-page-ver4 h2 {
-    font-size: 1.8em; }
-  .sf-page-ver4 .row,
-  .sf-page-ver4 footer {
-    margin-left: 13%; }
-    .sf-page-ver4 .row.headline,
-    .sf-page-ver4 footer.headline {
-      margin-left: 5%;
-      padding-top: 25vh;
-      padding-bottom: 20vh; }
-      .sf-page-ver4 .row.headline .button,
-      .sf-page-ver4 footer.headline .button {
-        margin-top: 39px; }
-  .sf-page-ver4 .information {
-    margin-bottom: 50px; }
-  .sf-page-ver4 .question h1 {
-    padding-bottom: 60px; }
-  .sf-page-ver4 .emoji {
-    width: 1em;
-    height: 1em;
-    margin-right: 10px; }
-  .sf-page-ver4 img.testimony {
-    width: 60%;
-    height: auto;
-    margin: 15%; }
-  .sf-page-ver4 .testimony-content {
-    width: 360px;
-    height: 360px; }
-  .sf-page-ver4 .testimony-box {
-    display: block;
-    float: left;
-    background-color: #191919; }
-    .sf-page-ver4 .testimony-box h3 {
-      font-family: "Open Sans", sans-serif;
-      font-weight: bold;
-      margin-top: 50px;
-      margin-left: 20px;
-      letter-spacing: -.5px; }
-    .sf-page-ver4 .testimony-box p {
-      margin-left: 20px; }
-    .sf-page-ver4 .testimony-box i {
-      font-size: 13px;
-      color: #9B9B9B; }
-  .sf-page-ver4 .testimony-box-2 {
-    background-image: url(../img/bwshot1.png);
-    background-position: center center;
+  .sf-ver5 .headline {
+    margin-left: 5%;
+    padding-top: 25vh;
+    padding-bottom: 20vh; }
+    .sf-ver5 .headline .button {
+      margin-top: 30px; }
+  .sf-ver5 .column {
+    background-repeat: no-repeat;
     background-size: cover; }
-  .sf-page-ver4 .testimony-box-3 {
-    background-image: url(../img/bwshot2.png);
-    background-position: center center;
-    background-size: cover; }
-  .sf-page-ver4 .testimony-box-4 {
+  .sf-ver5 .testimonial-grid {
+    background: #191919;
+    color: #FFFFFF;
+    margin-top: 110px;
+    margin-bottom: 110px; }
+  .sf-ver5 blockquote {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 60px 35px;
+    border-left: none;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative; }
+  .sf-ver5 blockquote strong {
     display: block;
-    float: left;
-    background-color: #191919; }
-    .sf-page-ver4 .testimony-box-4 h3 {
-      font-family: "Open Sans", sans-serif;
-      font-weight: bold;
-      margin-left: 20px;
-      letter-spacing: -.5px; }
-    .sf-page-ver4 .testimony-box-4 p {
-      margin-top: 50px;
-      margin-left: 20px; }
-    .sf-page-ver4 .testimony-box-4 i {
-      font-size: 13px;
-      color: #9B9B9B; }
-  .sf-page-ver4 .final-sales {
-    width: 1380px;
-    height: 651px;
-    margin-left: 7%;
-    padding-top: 60px;
-    background-color: #191919; }
-  .sf-page-ver4 .grey {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    margin: 10px 0; }
+  .sf-ver5 blockquote cite {
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 13px;
     color: #9B9B9B; }
+  .sf-ver5 blockquote cite::before {
+    content: ""; }
+  @media (max-width: 40em) {
+    .sf-ver5 .headline {
+      padding-top: 15vh; }
+      .sf-ver5 .headline h1 {
+        font-size: 35px; } }
+  @media (min-width: 64em) {
+    .sf-ver5 blockquote {
+      padding-top: 0;
+      padding-bottom: 0; }
+    .sf-ver5 .testimonial-grid .photo {
+      height: 360px; } }
+  .sf-ver5 .testimonials {
+    position: relative; }
+  .sf-ver5 .guest-background--large {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 50%;
+    width: 60%;
+    margin-top: -30%; }
+  .sf-ver5 .row.x-large {
+    max-width: 1380px; }
+
+.sf-page-ver4 .row, .sf-page-ver4 footer {
+  margin-left: 13%; }
+  .sf-page-ver4 .row.headline, .sf-page-ver4 footer.headline {
+    margin-left: 5%;
+    padding-top: 25vh;
+    padding-bottom: 20vh; }
+    .sf-page-ver4 .row.headline .button, .sf-page-ver4 footer.headline .button {
+      margin-top: 3px; }
+.sf-page-ver4 .information {
+  margin-bottom: 50px; }
+.sf-page-ver4 .question h1 {
+  padding-bottom: 60px; }
+.sf-page-ver4 .emoji {
+  height: 1em;
+  width: 1em;
+  margin-right: 10px; }
+.sf-page-ver4 img.testimony {
+  margin: 15%;
+  width: 60%;
+  height: auto; }
+.sf-page-ver4 .testimony-content {
+  width: 360px;
+  height: 360px; }
+.sf-page-ver4 .testimony-box {
+  background-color: #191919;
+  display: block;
+  float: left; }
+  .sf-page-ver4 .testimony-box h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.5px; }
+  .sf-page-ver4 .testimony-box p {
+    margin-left: 20px; }
+  .sf-page-ver4 .testimony-box i {
+    font-size: 13px;
+    color: #9b9b9b; }
+.sf-page-ver4 .testimony-box-2 {
+  background-image: url(../img/bwshot1.png);
+  background-position: center center;
+  background-size: cover; }
+.sf-page-ver4 .testimony-box-3 {
+  background-image: url(../img/bwshot2.png);
+  background-position: center center;
+  background-size: cover; }
+.sf-page-ver4 .testimony-box-4 {
+  background-color: #191919;
+  display: block;
+  float: left; }
+  .sf-page-ver4 .testimony-box-4 h3 {
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.5px; }
+  .sf-page-ver4 .testimony-box-4 p {
+    margin-top: 50px;
+    margin-left: 20px; }
+  .sf-page-ver4 .testimony-box-4 i {
+    font-size: 13px;
+    color: #9b9b9b; }
+.sf-page-ver4 .final-sales {
+  width: 1380px;
+  height: 651px;
+  background-color: #191919;
+  margin-left: 7%;
+  padding-top: 60px; }
+.sf-page-ver4 .grey {
+  color: #9b9b9b; }
 
 /*# sourceMappingURL=style.css.map */
