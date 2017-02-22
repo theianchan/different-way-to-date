@@ -1,113 +1,126 @@
 .sf-page-ver4 {
-	background-color: #27282c;
-	color: $white;
-	& h1, h2, h6, p, h3 {
-		color: $white;
-	}
-	& h1 {
-		font-size: 3.3em;
-		padding-bottom: 10px;
-	}
-	& h2 {
-		font-size: 1.8em;
-	}
-	& .row, footer {
-		margin-left: 13%;
-		&.headline {
-			margin-left: 5%;
-			padding-top: 25vh;
-			padding-bottom: 20vh;
-			& .button {
-				margin-top: 39px;
-			}
-		}
-	}
-	.information{
-		margin-bottom: 50px;
-	}
-	.question h1 {
-		padding-bottom: 60px;
-	}
-	.emoji {
-		height: 1em;
-		width: 1em;
-		margin-right: 10px;
-	}
-	img.testimony {
-		margin: 15%;
-		width: 60%;
-		height: auto;
-	}
-	.testimony-content {
-		width: 360px;
-		height: 360px;
-	}
-	.testimony-box {
-		// padding-right: 35px;
-		// width: 305px;
-		// height: 360px;
-		background-color: #191919;
-		display: block;
-		float: left;
-		& h3 {
-			margin-top: 50px;
-			margin-left: 20px;
-			font-family: $sans-serif;
-			font-weight: bold;
-			letter-spacing: -0.5px;
-		}
-		& p {
-			margin-left: 20px;
-		}
-		& i {
-			font-size: 13px;
-			color: #9b9b9b;
-		}
-	}
-	.testimony-box-2 {
-			background-image: url(../img/bwshot1.png);
-			background-position: center center;
-			background-size: cover;
-	}
-	.testimony-box-3 {
-			background-image: url(../img/bwshot2.png);
-			background-position: center center;
-			background-size: cover;
-	}
-	.testimony-box-4 {
-		// padding-right: 35px;
-		// width: 305px;
-		// height: 360px;
-		background-color: #191919;
-		display: block;
-		float: left;
-		& h3 {
-			margin-left: 20px;
-			font-family: $sans-serif;
-			font-weight: bold;
-			letter-spacing: -0.5px;
-		}
-		& p {
-			margin-top: 50px;
-			margin-left: 20px;
-		}
-		& i {
-			font-size: 13px;
-			color: #9b9b9b;
-		}
-	}
-	.final-sales{
-		width: 1380px;
-  		height: 651px;
-  		background-color: #191919;
-  		margin-left: 7%;
-  		padding-top: 60px;
-	}
-	.grey {
-		color: #9b9b9b;
-	}
+    color: $white;
+    background-color: #27282C;
+    h1,
+    h2,
+    h6,
+    p,
+    h3 {
+        color: $white;
+    }
+
+    .classtwo {
+
+    }
+
+
+
+
+    h1 {
+        font-size: 3.3em;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .row,
+    footer {
+        margin-left: 13%;
+        &.headline {
+            margin-left: 5%;
+            padding-top: 25vh;
+            padding-bottom: 20vh;
+            .button {
+                margin-top: 39px;
+            }
+        }
+    }
+    .information {
+        margin-bottom: 50px;
+    }
+    .question h1 {
+        padding-bottom: 60px;
+    }
+    .emoji {
+        width: 1em;
+        height: 1em;
+        margin-right: 10px;
+    }
+    img.testimony {
+        width: 60%;
+        height: auto;
+        margin: 15%;
+    }
+    .testimony-content {
+        width: 360px;
+        height: 360px;
+    }
+    .testimony-box {
+        display: block;
+        float: left;
+        // padding-right: 35px;
+        // width: 305px;
+        // height: 360px;
+        background-color: #191919;
+        h3 {
+            font-family: $sans-serif;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-left: 20px;
+            letter-spacing: -.5px;
+        }
+        p {
+            margin-left: 20px;
+        }
+        i {
+            font-size: 13px;
+            color: #9B9B9B;
+        }
+    }
+    .testimony-box-2 {
+        background-image: url(../img/bwshot1.png);
+        background-position: center center;
+        background-size: cover;
+    }
+    .testimony-box-3 {
+        background-image: url(../img/bwshot2.png);
+        background-position: center center;
+        background-size: cover;
+    }
+    .testimony-box-4 {
+        display: block;
+        float: left;
+        // padding-right: 35px;
+        // width: 305px;
+        // height: 360px;
+        background-color: #191919;
+        h3 {
+            font-family: $sans-serif;
+            font-weight: bold;
+            margin-left: 20px;
+            letter-spacing: -.5px;
+        }
+        p {
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        i {
+            font-size: 13px;
+            color: #9B9B9B;
+        }
+    }
+    .final-sales {
+        width: 1380px;
+        height: 651px;
+        margin-left: 7%;
+        padding-top: 60px;
+        background-color: #191919;
+    }
+    .grey {
+        color: #9B9B9B;
+    }
 }
 
-		// background-image: url(../img/san-francisco-1.jpg);
-		// background-position: center center;
-		// background-size: cover;
+// background-image: url(../img/san-francisco-1.jpg);
+// background-position: center center;
+// background-size: cover;

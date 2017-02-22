@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Different Way to Date</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-90469644-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #27282C;
+            color: #FFFFFF;
+        }
+        .row {
+            /* border: 1px solid red; */
+        }
+        .column {
+            /* border: 1px solid blue; */
+        }
+        .column.yellow {
+            /* background-color: yellow; */
+        }
+        .column {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .testimonial-grid {
+            background: #191919;
+            color: #FFFFFF;
+            margin-top: 110px;
+            margin-bottom: 110px;
+        }
+        blockquote {
+            color: #FFFFFF;
+            margin: 0;
+            padding: 60px 35px;
+            border-left: none;
+            font-size: 16px;
+            line-height: 22px;
+            position: relative;
+        }
+        blockquote strong {
+            display: block;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+            line-height: 30px;
+            margin: 10px 0;
+        }
+        blockquote cite {
+            margin-top: 25px;
+            font-size: 13px;
+            line-height: 13px;
+            color: #9B9B9B;
+        }
+        blockquote cite::before {
+            content: "";
+        }
+
+        @media (min-width: 64em) {
+            blockquote {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .testimonial-grid .photo {
+                height: 360px;
+            }
+        }
+
+        .testimonials {
+            position: relative;
+        }
+
+        .guest-background--large {
+            position: absolute;
+            z-index: -1;
+            right: 0;
+            top: 50%;
+            width: 60%;
+            margin-top: -30%;
+
+        }
+
+        .row.x-large {
+            max-width: 1380px;
+        }
+
+    </style>
+  <!-- <div class="row">
+        <div class="column small-12 medium-9 large-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consequuntur perspiciatis fuga doloremque aperiam voluptatem, ratione eos tempore ut aut commodi expedita ab! Perferendis, ex maxime quaerat magnam dicta ipsam?
+        </div>
+        <div class="column small-12">
+            small-12
+        </div>
+        <div class="column small-10 yellow">
+            small-10
+        </div>
+        <div class="column small-8">
+            <div class="yellow">
+                small-8
+            </div>
+        </div>
+        <div class="column small-6">
+            small-6
+        </div>
+    </div> -->
+
+    <div class="row">
+        <div class="column small-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eligendi nostrum a commodi tempore. Quidem sint ex illum delectus dolor amet numquam quos laborum, repellat minus beatae velit voluptate aut.</p>
+        </div>
+    </div>
+
+    <div class="row x-large align-middle testimonials">
+        <div class="column small-12 large-7 testimonial-grid">
+            <div class="row align-middle">
+
+                <div class="column small-12 medium-6 photo small-order-1 medium-order-2" style="background-image:url('assets/img/sf-guests--small-1.jpg'); height: 360px;">
+                </div>
+
+                <div class="column small-12 medium-6 small-order-2 medium-order-1">
+                    <blockquote>
+                        <strong>I'm glad I freed up my Saturday night for this!</strong>
+                        One of a kind platform to meet very interesting (AKA attractive) people who are like-minded but come from a variety of backgrounds and experiences.
+                        <cite>Female guest, really smart, really pretty, like wow I mean just seriously wow</cite>
+                    </blockquote>
+                </div>
+
+            </div>
+            <div class="row align-middle">
+
+                <div class="column small-12 medium-6 photo" style="background-image:url('assets/img/sf-guests--small-2.jpg'); height: 360px;">
+                </div>
+
+                <div class="column small-12 medium-6">
+                    <blockquote>
+                        I consider myself a pretty social person who has no problem meeting people, but that said,
+                        <strong>a Different Way to Date was an amazing, eye-opening event.</strong>
+                        <cite>Male guest, pretty cool and all that jazz we guess</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="guest-background--large show-for-medium">
+            <img src="assets/img/sf-guests--large.jpg" alt="">
+        </div>
+
+
+
+
+
+        <!-- <div class="column small-12 medium-6 large-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, soluta possimus veniam distinctio ex dignissimos blanditiis eveniet sint magnam, vel debitis illo rerum cupiditate quae officiis unde voluptatibus delectus rem.</div>
+        <div class="column small-12 medium-6 large-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quis voluptatibus harum blanditiis quam tempora ex, illum officiis atque eligendi tempore iste repudiandae, optio ipsam. Assumenda quaerat eligendi quod laboriosam!</div>
+        <div class="column small-12 medium-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati id excepturi totam quibusdam labore. Nesciunt illum quod hic numquam voluptatem! Libero error enim vel reprehenderit velit voluptates consequuntur cupiditate nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati id excepturi totam quibusdam labore. Nesciunt illum quod hic numquam voluptatem! Libero error enim vel reprehenderit velit voluptates consequuntur cupiditate nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati id excepturi totam quibusdam labore. Nesciunt illum quod hic numquam voluptatem! Libero error enim vel reprehenderit velit voluptates consequuntur cupiditate nam!</div>
+        <div class="column small-12 medium-6 large-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non modi vero numquam alias consequatur blanditiis tenetur minus labore, quae, cupiditate cumque ratione laudantium earum quidem nobis aspernatur. Id, autem, ratione!</div>
+        <div class="column small-12 medium-6 large-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum laudantium perspiciatis eaque illum ad fugit molestiae assumenda blanditiis. Saepe vitae, sunt! Magni reiciendis at optio. Dicta voluptate, sequi corporis rerum.</div> -->
+    </div>
+
+<div class="row">
+    <div class="column small-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eligendi nostrum a commodi tempore. Quidem sint ex illum delectus dolor amet numquam quos laborum, repellat minus beatae velit voluptate aut.</p>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/team.js"></script>
+</body>
+
+</html>
