@@ -13,19 +13,34 @@
 	}
 	.headline {
 		margin-left: 5%;
-		padding-top: 25vh;
-		padding-bottom: 20vh;
+		padding-top: 50px;
+		padding-bottom: 30px;
 		.button {
 			margin-top: 30px;
 		}
 	}
-	.qa-1 {
+	.qa {
+		h2 {
+			padding-top: 25px;
+			font-size: 28px;
+		}
+		p {
+			padding-top: 13px;
+		}
+		.question {
+			padding-top: 130px;
+		}
+		&.qa-1 {
 		background-image: url('../img/sf--breaker.jpg');
 		background-position: center center;
 		background-size: cover;
 		height: 1059px;
-		.question {
-			padding-top: 130px;
+		}
+		&.qa-2 {
+		background-image: url('../img/hero--background.jpg');
+		background-position: center center;
+		background-size: cover;
+		height: 1059px;
 		}
 	}
 	.column {
@@ -65,14 +80,6 @@
         content: "";
     }
 
-    @media (max-width: $medium) {
-    	.headline {
-    		padding-top: 15vh;
-    		h1 {
-    			font-size: 35px;
-    		}
-    	}
-    }
 
     @media (min-width: $large) {
         blockquote {
@@ -101,6 +108,43 @@
     .row.x-large {
         max-width: 1380px;
     }
+
+    // Mobile Screen
+    @media (max-width: $medium) {
+    	section {
+    		margin-top: 50px;
+    	}
+    	.headline {
+    		padding-top: 0x;
+    		h1 {
+    			font-size: 35px;
+    		}
+    	}
+ 
+    	.testimonial-grid {
+    		margin-top: 0px;
+    		margin-bottom: 0px;
+	    }
+
+    	.qa {
+    		margin-bottom: 5px;
+    		h1 {
+    			font-size: 35px;
+    		}
+			h2 {
+				padding-top: 15px;
+				font-size: 25px;
+				font-weight: bold;
+			}
+			p {
+				padding-top: 0px;
+			}
+			.question {
+				padding-top: 100px;
+			}
+	    }
+	}
+
 }
 
 

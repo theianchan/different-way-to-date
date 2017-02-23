@@ -2477,17 +2477,27 @@ p.event-date {
     margin-bottom: 5px; }
   .sf-ver5 .headline {
     margin-left: 5%;
-    padding-top: 25vh;
-    padding-bottom: 20vh; }
+    padding-top: 50px;
+    padding-bottom: 30px; }
     .sf-ver5 .headline .button {
       margin-top: 30px; }
-  .sf-ver5 .qa-1 {
+  .sf-ver5 .qa h2 {
+    padding-top: 25px;
+    font-size: 28px; }
+  .sf-ver5 .qa p {
+    padding-top: 13px; }
+  .sf-ver5 .qa .question {
+    padding-top: 130px; }
+  .sf-ver5 .qa.qa-1 {
     background-image: url("../img/sf--breaker.jpg");
     background-position: center center;
     background-size: cover;
     height: 1059px; }
-    .sf-ver5 .qa-1 .question {
-      padding-top: 130px; }
+  .sf-ver5 .qa.qa-2 {
+    background-image: url("../img/hero--background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 1059px; }
   .sf-ver5 .column {
     background-repeat: no-repeat;
     background-size: cover; }
@@ -2518,11 +2528,6 @@ p.event-date {
     color: #9B9B9B; }
   .sf-ver5 blockquote cite::before {
     content: ""; }
-  @media (max-width: 40em) {
-    .sf-ver5 .headline {
-      padding-top: 15vh; }
-      .sf-ver5 .headline h1 {
-        font-size: 35px; } }
   @media (min-width: 64em) {
     .sf-ver5 blockquote {
       padding-top: 0;
@@ -2540,6 +2545,28 @@ p.event-date {
     margin-top: -30%; }
   .sf-ver5 .row.x-large {
     max-width: 1380px; }
+  @media (max-width: 40em) {
+    .sf-ver5 section {
+      margin-top: 50px; }
+    .sf-ver5 .headline {
+      padding-top: 0x; }
+      .sf-ver5 .headline h1 {
+        font-size: 35px; }
+    .sf-ver5 .testimonial-grid {
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .sf-ver5 .qa {
+      margin-bottom: 5px; }
+      .sf-ver5 .qa h1 {
+        font-size: 35px; }
+      .sf-ver5 .qa h2 {
+        padding-top: 15px;
+        font-size: 25px;
+        font-weight: bold; }
+      .sf-ver5 .qa p {
+        padding-top: 0px; }
+      .sf-ver5 .qa .question {
+        padding-top: 100px; } }
 
 .sf-page-ver4 .row, .sf-page-ver4 footer {
   margin-left: 13%; }
