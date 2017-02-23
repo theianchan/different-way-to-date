@@ -2577,7 +2577,11 @@ p.event-date {
       .sf-ver5 .qa p {
         padding-top: 0px; }
       .sf-ver5 .qa .question {
-        padding-top: 100px; } }
+        padding-top: 100px; }
+    .sf-ver5 .closing-ad {
+      padding: 20px; }
+    .sf-ver5 .grey {
+      color: #9b9b9b; } }
 
 .sf-page-ver4 .row, .sf-page-ver4 footer {
   margin-left: 13%; }
