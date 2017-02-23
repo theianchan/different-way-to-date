@@ -2492,7 +2492,8 @@ p.event-date {
     background-image: url("../img/sf--breaker.jpg");
     background-position: center center;
     background-size: cover;
-    height: 1059px; }
+    height: 1059px;
+    margin-bottom: 0px; }
   .sf-ver5 .qa.qa-2 {
     background-image: url("../img/hero--background.jpg");
     background-position: center center;
