@@ -2470,6 +2470,11 @@ p.event-date {
   color: #FFFFFF; }
   .sf-ver5 h1, .sf-ver5 h2, .sf-ver5 h6, .sf-ver5 p, .sf-ver5 h3 {
     color: #FFFFFF; }
+  .sf-ver5 .emoji {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px; }
   .sf-ver5 .headline {
     margin-left: 5%;
     padding-top: 25vh;
