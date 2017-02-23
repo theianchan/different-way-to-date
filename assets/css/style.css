@@ -2481,6 +2481,13 @@ p.event-date {
     padding-bottom: 20vh; }
     .sf-ver5 .headline .button {
       margin-top: 30px; }
+  .sf-ver5 .qa-1 {
+    background-image: url("../img/sf--breaker.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 1059px; }
+    .sf-ver5 .qa-1 .question {
+      padding-top: 130px; }
   .sf-ver5 .column {
     background-repeat: no-repeat;
     background-size: cover; }
