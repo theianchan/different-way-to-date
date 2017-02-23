@@ -11,6 +11,9 @@
 		margin-right: 10px;
 		margin-bottom: 5px;
 	}
+
+	// Headling Section Styling 
+
 	.headline {
 		margin-left: 5%;
 		padding-top: 50px;
@@ -19,6 +22,8 @@
 			margin-top: 30px;
 		}
 	}
+
+	// Q & A Styling
 	.qa {
 		h2 {
 			padding-top: 25px;
@@ -35,7 +40,6 @@
 		background-position: center center;
 		background-size: cover;
 		height: 1059px;
-		margin-bottom: 0px;
 		}
 		&.qa-2 {
 		background-image: url('../img/hero--background.jpg');
@@ -44,6 +48,8 @@
 		height: 1059px;
 		}
 	}
+
+	// Testimonials Styling
 	.column {
             background-repeat: no-repeat;
             background-size: cover;
@@ -109,6 +115,21 @@
     .row.x-large {
         max-width: 1380px;
     }
+
+    // Final Section Styling
+    .closing-ad {
+    	max-width: 100%;
+    	padding: 100px;
+    	width: 90%;
+  		height: auto;
+  		background-color: #191919;
+  		margin-top: 100px;
+  		margin-bottom: 50px;
+  		padding-bottom: 60px;
+    }
+    .grey {
+		color: #9b9b9b;
+	}
 
     // Mobile Screen
     @media (max-width: $medium) {

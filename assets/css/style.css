@@ -2492,8 +2492,7 @@ p.event-date {
     background-image: url("../img/sf--breaker.jpg");
     background-position: center center;
     background-size: cover;
-    height: 1059px;
-    margin-bottom: 0px; }
+    height: 1059px; }
   .sf-ver5 .qa.qa-2 {
     background-image: url("../img/hero--background.jpg");
     background-position: center center;
@@ -2546,6 +2545,17 @@ p.event-date {
     margin-top: -30%; }
   .sf-ver5 .row.x-large {
     max-width: 1380px; }
+  .sf-ver5 .closing-ad {
+    max-width: 100%;
+    padding: 100px;
+    width: 90%;
+    height: auto;
+    background-color: #191919;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 60px; }
+  .sf-ver5 .grey {
+    color: #9b9b9b; }
   @media (max-width: 40em) {
     .sf-ver5 section {
       margin-top: 50px; }
