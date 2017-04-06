@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A Different Way to Date</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Playfair+Display">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script>
@@ -27,50 +29,48 @@
 </head>
 
 <body>
-    <div class="home">
-        <div class="city kl">
-            <div class="city-content description">
-                <img class="emoji-flag" src="assets/img/emoji-malaysiaflag.png">
-                <h3>A Different Way To Date in</h3>
-                <h1>Kuala Lumpur</h1>
-                <div class="upcoming-event">
+    <div class="row expanded align-middle city">
+
+        <div class="column small-12 large-6 city__kl">
+
+            <div class="city__content-wrapper wow fadeIn" data-wow-duration="2s">
+                <img src="assets/img/emoji--flag--malaysia.png" alt="" class="city__flag">
+                <h1 class="city__title">A Different Way to Date in</h1>
+                <h2 class="city__subtitle">Kuala Lumpur</h2>
+
+                <div class="city__details">
                     <p>Next Event:</p>
-                    <p class="event-date">Saturday, February 4th, 2017</p>
+                    <p class="city__date">Saturday, April 15th, 2017</p>
                 </div>
-                <img class="emoji-small" src="assets/img/emoji-femalejudge.png">
-                <img class="emoji-small" src="assets/img/emoji-maleteacher.png">
-                <div class="row align-center">
-                    <div class="column">
-                        <a href="/kl" class="button">Join us in KL</a>
-                    </div>
-                </div>
+                <img src="assets/img/emoji--female-judge.png" alt="" class="city__attendee">
+                <img src="assets/img/emoji--male-teacher.png" alt="" class="city__attendee">
+                <a href="kl/" class="button city__button"><span>Join us in KL</span></a>
             </div>
-<!--             <div class="city-content countdown">
-                Here is the time!
-            </div> -->
+
         </div>
-        <div class="city sf">
-            <div class="city-content description">
-                <img class="emoji-flag" src="assets/img/emoji-usflag.png">
-                <h3>A Different Way To Date in</h3>
-                <h1>San Francisco</h1>
-                <div class="upcoming-event">
+
+        <div class="column small-12 large-6 city__sf">
+
+            <div class="city__content-wrapper wow fadeIn" data-wow-duration="2s">
+                <img src="assets/img/emoji--flag--united-states.png" alt="" class="city__flag">
+                <h1 class="city__title">A Different Way to Date in</h1>
+                <h2 class="city__subtitle">San Francisco</h2>
+
+                <div class="city__details">
                     <p>Next Event:</p>
-                    <p class="event-date">Saturday, February 24th, 2017</p>
+                    <p class="city__date">Coming Soon!</p>
                 </div>
-                <img class="emoji-small" src="assets/img/emoji-maleoffice.png">
-                <img class="emoji-small" src="assets/img/emoji-femaledr.png">
-                <div class="row align-center">
-                    <div class="column">
-                        <a href="/grid" class="button">Join us in SF</a>
-                    </div>
-                </div>
+                <img src="assets/img/emoji--male-professional.png" alt="" class="city__attendee">
+                <img src="assets/img/emoji--female-doctor.png" alt="" class="city__attendee">
+                <a class="button city__button disabled"><span>Coming Soon!</span></a>
             </div>
-<!--             <div class="city-content countdown">
-                Here is the time!
-            </div> -->
+
         </div>
     </div>
-</body>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
 </html>

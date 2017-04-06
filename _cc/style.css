@@ -1,0 +1,150 @@
+.header {
+  text-align: center;
+  padding: 200px 0;
+  margin-bottom: 50px;
+  background-color: #BDBDBD;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.header a {
+  /* Remember to check the display attribute */
+  display: block;
+  margin-top: 15px;
+  color: slategray;
+}
+
+
+.header .subheader {
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  width: 90%;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  color: #000000;
+}
+
+@media (min-width: 500px) {
+  .header h1 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header h1 {
+    font-size: 180px;
+  }
+}
+
+.fullscreen {
+  white-space: nowrap;
+}
+
+.fullscreen .bw.pic {
+  width: 33.33%;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* .gallery .columns {
+    padding-right: .325rem;
+    padding-left: .325rem;
+} */
+
+.gallery {
+  max-width: 600px;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery .bw.pic {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.yoshino-logo {
+     text-align: center;
+     margin-top: 30px;
+
+}
+
+.details {
+	font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    text-align: center;
+     margin-top: 40px;
+
+}
+
+h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.the-works {
+	font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.card {
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 200px 20px;
+    background-color: #000000;
+    }
+
+/*B&W*/
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxed {
+  margin-top: 45px;
+  border: 1px solid white ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  padding: 15px 5px;
+}
+.boxed a {
+  color: white;
+  line-height: 1.2;
+}
+

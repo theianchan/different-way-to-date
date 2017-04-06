@@ -2333,6 +2333,109 @@ section {
       margin: 0 5px;
       cursor: not-allowed; }
 
+.button {
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  display: block;
+  overflow: hidden;
+  max-width: 220px;
+  padding: 11px 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 0;
+  background-color: #EE0979;
+  background-image: linear-gradient(256deg, #EE0979, #FF6A00);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden; }
+  .button span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .button.disabled {
+    cursor: not-allowed;
+    color: #85939D;
+    background-color: #E3E2DF;
+    background-image: none; }
+  .button:not(.disabled)::before {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+    margin-left: -10px;
+    content: "";
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    background-image: url("../img/emoji--dizzy.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .button:not(.disabled):hover, .button:not(.disabled):focus, .button:not(.disabled):active {
+    color: #FFFFFF; }
+  .button:not(.disabled):hover span, .button:not(.disabled):focus span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%); }
+  .button:not(.disabled):hover::before, .button:not(.disabled):focus::before {
+    top: 0; }
+  .button:not(.disabled):active {
+    top: 2px; }
+
+.city {
+  text-align: center; }
+  .city .city__flag {
+    width: 50px;
+    margin: 120px auto 15px; }
+  .city .city__title {
+    font-size: 22px;
+    margin: 0 auto; }
+  .city .city__subtitle {
+    font-size: 44px;
+    margin: 0 auto 25px; }
+  .city .city__details p {
+    font-size: 16px;
+    margin: 0 auto; }
+  .city .city__details .city__date {
+    font-size: 22px;
+    margin: 0 auto 60px; }
+  .city .city__attendee {
+    width: 50px;
+    margin: 0 auto 15px; }
+  .city .city__button {
+    margin: 0 auto 120px;
+    max-width: 180px; }
+  @media (min-width: 64em) {
+    .city {
+      height: 100vh; }
+      .city .city__kl,
+      .city .city__sf {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; } }
+
+.city__kl {
+  background-color: #2A2A2A; }
+  .city__kl .city__title,
+  .city__kl .city__subtitle,
+  .city__kl .city__details {
+    color: #FFFFFF; }
+
 .team {
   margin: 45px 0; }
   .team .button {
@@ -2404,67 +2507,6 @@ section {
     transform: rotate(360deg); }
   to {
     transform: rotate(0deg); } }
-.emoji-flag {
-  width: 60px;
-  height: 79px; }
-
-.upcoming-event {
-  margin-top: 20px; }
-
-.upcoming-event p {
-  line-height: 95%;
-  margin-bottom: 10px; }
-
-p.event-date {
-  font-size: 20px; }
-
-.emoji-small {
-  margin-top: 20px;
-  width: 50px;
-  height: 50px; }
-
-.home {
-  white-space: nowrap; }
-
-.city {
-  text-align: center;
-  height: 50vh;
-  min-height: 480px;
-  position: relative; }
-  .city.kl {
-    background-color: #2A2A2A;
-    color: #FFFFFF; }
-    .city.kl h1, .city.kl h2, .city.kl h3, .city.kl p {
-      color: #FFFFFF; }
-  .city .city-content {
-    position: absolute;
-    display: block;
-    width: 100%;
-    text-align: center; }
-    .city .city-content.description {
-      top: 35px; }
-    .city .city-content.countdown {
-      bottom: 35px; }
-  @media screen and (min-width: 64em) {
-    .city {
-      height: 100vh;
-      width: 50%;
-      display: inline-block; }
-      .city .city-content.description {
-        top: 150px; }
-      .city .city-content.countdown {
-        bottom: 150px; } }
-
-.button {
-  font-size: 13px;
-  font-weight: 700;
-  display: inline-block;
-  padding: 11px 44px;
-  color: #FFFFFF;
-  border-radius: 0;
-  background-color: #EE0979;
-  background-image: linear-gradient(256deg, #EE0979, #FF6A00); }
-
 .sf-ver5 {
   background-color: #27282c;
   color: #FFFFFF; }
