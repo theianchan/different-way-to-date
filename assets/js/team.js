@@ -27,7 +27,7 @@ function main() {
         + startingPosition +"deg) translateX("
         + startingDistance  + "px)'><div class=localized style='transform: rotate(-"
         + startingPosition + "deg)'><div class=counterorbit><img class='wow bounceIn' data-wow-delay=\""
-        + (Math.floor(Math.random() * 5) + 1) + "00ms\" src=assets/img/team/"
+        + (Math.floor(Math.random() * 5) + 1) + "00ms\" src=../assets/img/team/"
         + name.toLowerCase() + ".jpg><span>"
         + name + "</span></div></div></li>";
 

@@ -2338,10 +2338,8 @@ section {
   font-weight: 700;
   position: relative;
   display: inline-block;
-  display: block;
   overflow: hidden;
-  max-width: 220px;
-  padding: 11px 0;
+  padding: 11px 44px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
@@ -2368,7 +2366,7 @@ section {
     color: #85939D;
     background-color: #E3E2DF;
     background-image: none; }
-  .button:not(.disabled)::before {
+  .button.animate::before {
     position: absolute;
     top: -100%;
     left: 50%;
@@ -2383,16 +2381,16 @@ section {
     background-image: url("../img/emoji--dizzy.png");
     background-repeat: no-repeat;
     background-size: cover; }
-  .button:not(.disabled):hover, .button:not(.disabled):focus, .button:not(.disabled):active {
+  .button.animate:hover, .button.animate:focus, .button.animate:active {
     color: #FFFFFF; }
-  .button:not(.disabled):hover span, .button:not(.disabled):focus span {
+  .button.animate:hover span, .button.animate:focus span {
     -webkit-transform: translateY(300%);
     -moz-transform: translateY(300%);
     -ms-transform: translateY(300%);
     transform: translateY(300%); }
-  .button:not(.disabled):hover::before, .button:not(.disabled):focus::before {
+  .button.animate:hover::before, .button.animate:focus::before {
     top: 0; }
-  .button:not(.disabled):active {
+  .button.animate:active {
     top: 2px; }
 
 .city {
@@ -2417,6 +2415,7 @@ section {
     margin: 0 auto 15px; }
   .city .city__button {
     margin: 0 auto 120px;
+    display: block;
     max-width: 180px; }
   @media (min-width: 64em) {
     .city {
