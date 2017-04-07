@@ -2158,15 +2158,17 @@ select[multiple] {
 html,
 body {
   font-family: "Open Sans", sans-serif;
-  color: #4A4A4A; }
+  color: #4A4A4A;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
 
 html {
   overflow: hidden;
   height: 100%; }
 
 body {
-  height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  height: 100%; }
 
 h1,
 h2,

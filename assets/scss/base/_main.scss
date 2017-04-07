@@ -2,6 +2,9 @@ html,
 body {
     font-family: $sans-serif;
     color: $grey--dark;
+
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 html {
@@ -10,8 +13,8 @@ html {
 }
 
 body {
-    height: 100%;
     overflow: auto;
+    height: 100%;
 }
 
 h1,
