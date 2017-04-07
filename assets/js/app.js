@@ -1,2 +1,5 @@
 $(document).foundation()
-new WOW().init();
+wow = new WOW({
+    mobile: false
+})
+wow.init();
